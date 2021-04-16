@@ -16,8 +16,8 @@ var programGain = '4096';
 
 // Water motors.  This goes to the relay
 var wMotor1 = new Gpio(19, 'out');
-var wMotor2 = new Gpio(16, 'out');
-var wMotor3 = new Gpio(26, 'out');
+var wMotor2 = new Gpio(26, 'out');
+var wMotor3 = new Gpio(16, 'out');
 var wMotor4 = new Gpio(20, 'out');
 
 // I need to check to see rough ideas of what the number ranges should be

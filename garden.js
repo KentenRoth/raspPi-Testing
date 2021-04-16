@@ -22,7 +22,7 @@ var wMotor4 = new Gpio(20, 'out');
 
 // I need to check to see rough ideas of what the number ranges should be
 // This will be done after a few experiments.
-var highMoisture = 0; // This will be a loww number.  Numbers below this will trigger a default sensor
+var highMoisture = 0; // This will be a low number.  Numbers below this will trigger a default sensor
 var lowMoisture = 0; // Numbers above this will trigger the water numbers
 
 readMoistureSensor1 = () => {
